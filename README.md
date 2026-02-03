@@ -21,7 +21,7 @@ A Prometheus exporter for Septentrio GNSS receivers. This application connects t
 
 ## Configuration
 
-The application requires a `config.yaml` file. An example configuration:
+The application requires a `config.yaml` file. An example configuration file is in the repository, however, it should look something like this:
 
 ```yaml
 server:
@@ -31,7 +31,7 @@ stations:
   - name: "reference-station-1"
     host: "192.168.1.10"
     port: 28000
-  - name: "rover-1"
+  - name: "reference-station-2"
     host: "192.168.1.11"
     port: 28000
 ```
