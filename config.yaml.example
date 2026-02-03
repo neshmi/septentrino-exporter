@@ -1,0 +1,7 @@
+server:
+  port: 9100 # Port for Prometheus to scrape
+
+stations:
+  - name: station_name
+    host: IP or hostname of the station
+    port: port on the station
